@@ -27,6 +27,19 @@ then you start the server with:
 
 And... yes! You're all set to go.
 
+h3. Testing
+
+In order to run the test suite for this application, you'll need to execute:
+
+<pre><code>
+  ./bin/test
+</code></pre>
+
 h3. Gotchas
 
 Scripts stored under bin directory must have execution privileges granted.
+
+h3. Author
+
+Juan Maria Martinez Arce
+"INSIGNIA":http://www.insignia4u.com
