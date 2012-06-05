@@ -1,0 +1,6 @@
+ul#listing
+  each user in users
+    li(id=user.id, class='user')
+      if user.message
+        div.message= user.message
+      span.user(class="green radius label")= user.username

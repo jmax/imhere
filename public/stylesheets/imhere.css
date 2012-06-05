@@ -1,0 +1,31 @@
+.container { padding-top: 20px; }
+h1 { color: #666; }
+
+form { padding: 40px 0px; }
+
+#listing {  }
+
+  #listing li.user {
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    background-color: #f4f4f4;
+    border: 1px solid #ebebeb;
+    padding: 5px 10px;
+  }
+
+    #listing li.user .message {
+      border-radius: 3px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      background-color: #fff;
+      padding: 5px;
+      margin-bottom: 5px;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      font-style: italic;
+      font-weight: normal;
+      text-transform: normal;
+      letter-spacing: normal;
+      line-height: 1.4em;
+    }

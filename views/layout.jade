@@ -1,0 +1,32 @@
+!!!
+html
+  head
+    title I'm Here... What about you?
+    link(rel='stylesheet', href='/stylesheets/foundation.css')
+    link(rel='stylesheet', href='/stylesheets/app.css')
+    link(rel='stylesheet', href='/stylesheets/ie.css')
+    link(rel='stylesheet', href='/stylesheets/imhere.css')
+    meta(name='viewport', content='width=device-width')
+    meta(name="apple-mobile-web-app-capable", content="yes")
+
+  body
+    .container
+      .header.row
+        h1= title
+
+      .main.row
+        .twelve.columns
+          - var flashTypes = ['success', 'error']
+          each flashType in flashTypes
+            if flash[flashType]
+              div.alert-box(class=flashType)
+                = flash[flashType]
+
+          h2= subtitle
+          != body
+
+      .footer.row
+        span(class='white radius label') Code Blast 2012.
+
+    script(src='/socket.io/socket.io.js')
+    != js('application')

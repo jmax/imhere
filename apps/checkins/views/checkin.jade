@@ -1,0 +1,9 @@
+form(action='/check-in', method='post', class='nice')
+  .field
+    label Who are you?
+    input(type='text', name='username', class='input-text', placeholder='type your name')
+  .field
+    label Anything interesting to share
+    textarea(name='message', class='niceTextarea', placeholder="Anything. It's free.")
+  .action
+    input(type='submit', name='submit', value='Check in!', class='medium radius blue button')
