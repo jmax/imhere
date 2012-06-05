@@ -1,0 +1,32 @@
+h1. Code Blast 2012 / Un vistazo al futuro: Node.js
+
+h3. I'm here! Demo App
+
+This application implements a very simple page for checking in and leaving a message.
+
+With every check in, this application updates in real-time a dashboard page.
+
+h3. Dependencies
+
+This application was built with Express framework (v. 2.5.8) running on Node.js (v.0.6.18).
+It requires Redis to be installed.
+
+h3. Installation and instant gratification
+
+Clone this repo, run:
+
+<pre><code>
+  npm install
+</code></pre>
+
+then you start the server with:
+
+<pre><code>
+  ./bin/devserver
+</code></pre>
+
+And... yes! You're all set to go.
+
+h3. Gotchas
+
+Scripts stored under bin directory must have execution privileges granted.
